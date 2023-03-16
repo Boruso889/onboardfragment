@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".onboarding.screens.ThirdScreen">
+
+
+    <TextView
+        android:id="@+id/tvDesc3"
+        android:layout_width="290dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="160dp"
+        android:text="Наши врачи всегда наблюдают
+за вашими показателями здоровья"
+        android:textColor="#939396"
+        app:layout_constraintBottom_toTopOf="@+id/ivUzhas3"
+        app:layout_constraintEnd_toEndOf="@+id/ivUzhas3"
+        app:layout_constraintStart_toStartOf="@+id/ivUzhas3" />
+
+    <ImageView
+        android:id="@+id/ivUzhas3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_science"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGreen3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="29dp"
+        android:text="Мониторинг"
+        android:textColor="#00B712"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvDesc3"
+        app:layout_constraintEnd_toEndOf="@+id/tvDesc3"
+        app:layout_constraintStart_toStartOf="@+id/tvDesc3" />
+
+    <ImageView
+        android:id="@+id/ivDots3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_group3"
+        app:layout_constraintEnd_toEndOf="@+id/tvDesc3"
+        app:layout_constraintStart_toStartOf="@+id/tvDesc3"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesc3" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="17dp"
+        android:text="Завершить"
+        android:textColor="#57A9FF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
